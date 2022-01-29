@@ -1,0 +1,13 @@
+.text-centered {
+    text-align: center;
+}
+
+.large-text{
+    font-size: large;
+}
+
+
+.wrapper {
+    width: 300px;
+    margin: auto;
+  }
