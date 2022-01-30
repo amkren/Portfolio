@@ -1,22 +1,37 @@
 body {
     font-family: "europa", sans-serif;
+    margin: 0;
 }
 
+header {
+    background-color: rgb(50, 119, 116);
+    color:white;
+    padding: 15px;
+    height: 710px;
+}
 
 .text-centered {
     text-align: center;
 }
 
+.color-text {
+    color: rgb(50, 119, 116);
+}
+
 .large-text {
     font-size: 2.8em;
-    margin-top: 200px;
+    margin-top: 40%;
 }
 
 .wrapper {
-    width: 500px;
+    width: 700px;
     margin: auto;
 }
 
 .wrapper p {
-    font-size: 1.2em;
+    font-size: 1.0em;
+}
+
+.list li {
+    padding-top: 10px;
 }
