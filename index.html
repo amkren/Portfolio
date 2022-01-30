@@ -5,21 +5,21 @@
 <head>
 
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-    <title>Aaron's Portfolio</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width"> <!--adjusts with screen size-->
+    <title>Aaron's Portfolio</title> <!--Title of the page that appears in the tab of web browser-->
+	<link href="style.css" rel="stylesheet" type="text/css" /> <!--Links to the CSS page-->
 
 </head>
 
 <body>
 
-    <header>
-        <div class="wrapper">
-            <h1 class="text-centered large-text">Aaron Krenning</h1>
+    <header> <!--Begin header-->
+        <div class="wrapper"> <!--Begin wrapper-->
+            <h1 class="text-centered large-text">Aaron Krenning</h1> <!--h1 element with 2 classes, making it the most important element on the page-->
             <p class="text-centered">I am passionate about software, coding, and most importantly, learning</p>
-            <img src="[[https://github.com/amkren/Portfolio/blob/main/images/clipart4674233.png|alt=manonamountain]]">
-        </div>
-    </header>
+        </div> <!--End wrapper-->
+
+    </header> <!--end header-->
 
     <section class="intro">
         <div class="wrapper">
@@ -27,6 +27,7 @@
             <h2 class="text-centered">Hi! I'm Aaron</h2>
 
             <p class="smaller-text text-centered">I am a software developer from St. Louis, MO</p>
+            <img  class="saint-louis" src="https://imageio.forbes.com/i-forbesimg/media/lists/places/st-louis-mo_416x416.jpg?format=jpg&height=416&width=416&fit=bounds" alt="Saint Louis City with Arch">
 
             <h3 class="text-centered color-text">Guest Service Associate Turned Developer</h3>
 
@@ -58,13 +59,39 @@
 
             <h3 class="color-text">Things That I Enjoy Outside of Development</h3>
             <ol class="list">
-                <li>Video Games: <i>Apex Legends, Borderlands, Skyrim</i></li>
-                <li>Books: <i>The Broken Empire Series, Dark Tower Series, Mistborn Trilogy</i></li>
+                <li>Video Games: <i>
+                    <a href="https://www.ea.com/games/apex-legends" target="_blank">Apex Legends</a>,
+                    <a href="https://borderlands.com/en-US/" target="_blank">Borderlands</a>, 
+                    <a href="https://elderscrolls.bethesda.net/en/skyrim" target="_blank">Skyrim</a>
+                                </i>
+                </li>
+                <li>Books: <i>
+                    <a href="https://www.goodreads.com/series/64473-the-broken-empire" target="_blank">The Broken Empire Series</a>, 
+                    <a href="https://www.goodreads.com/series/40750-the-dark-tower" target="_blank">Dark Tower Series</a>, 
+                    <a href="https://www.goodreads.com/series/40910-the-mistborn-saga" target="_blank">Mistborn Saga</a>
+                            </i>
+                </li>
                 <li>Walks, runs, playing with my Texas Heeler Indigo!</li>
             </ol>
+            <hr>
         </div>
     </section>
 
+    <section class="contact">
+        <div class="wrapper">
+            <h2 class="text-centered">Contact Me!</h2>
+
+            <ul class="list">
+                <li><a href="https://www.linkedin.com/in/aaron-krenning-1a6b71140/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/amkren" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="text-centered">
+        <p>&copy; Aaron Krenning</p>
+    </footer>
+    
 </body>
 
 </html>
