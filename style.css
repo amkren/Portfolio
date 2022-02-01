@@ -1,21 +1,21 @@
 body {
     font-family: "europa", sans-serif;
     margin: 0;
-}
+} /*sets font to europe and creates margin of 0*/
 
 header {
-    background-color: rgb(50, 119, 116);
-    color:white;
-    padding: 15px;
-    height: 710px;
+    background-color: rgb(50, 119, 116); /*changes background color of header*/
+    color:white; /*makes text white*/
+    padding: 15px; /*adds 15px padding to all sides of header element*/
+    height: 710px; /*makes height of header 710px*/
 }
 
 footer {
-    padding: 5px;
+    padding: 5px; /*padding all sides*/
     background-color: rgb(50, 119, 116);
     color: white;
 }
-.saint-louis {
+.saint-louis { /*image class*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -23,51 +23,51 @@ footer {
 }
 
 .text-centered {
-    text-align: center;
+    text-align: center; /*centers text*/
 }
 
-.color-text {
+.color-text { /*class for colored text*/
     color: rgb(50, 119, 116);
 }
 
-.large-text {
+.large-text { /*class for larger text for more important headings*/
     font-size: 2.8em;
     margin-top: 40%;
 }
 
-.wrapper {
+.wrapper { /*wrapper class that sets width and margin for all divs*/
     width: 700px;
     margin: auto;
 }
 
-.wrapper p {
+.wrapper p {/*changes font size of paragraphs within all wrapper classes*/
     font-size: 1.0em;
 }
 
-.list li {
+.list li { /*changes padding of all li elements in all lists*/
     padding-top: 10px;
 }
 
 section {
-    padding: 20px;
+    padding: 20px; /*20 padding on all sides in each section*/
 }
 
-a:link {
+a:link { /*default color of anchor*/
     color:blue;
 }
 
-a:visited {
+a:visited { /*color of anchor after being clicked*/
     color: purple;
 }
 
-a:hover {
+a:hover { /*color of anchor while hovered*/
     color:lightblue;
 }
 
-a:active {
+a:active {/*anchor while being clicked*/
     font-size: 0.9em;
 }
 
-a:focus {
+a:focus { /*anchor while being focused*/
     color:blue;
 }
